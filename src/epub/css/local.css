@@ -6,7 +6,7 @@ footer{
 	text-align: right;
 }
 
-#autobiography{
+#part-1{
 	margin-top: 20vh;
 }
 
@@ -59,16 +59,20 @@ section[epub|type~="dedication"]#dedication-1 b{
 	font-size: 1.5em;
 }
 
-#foreword-1 section + section{
+#foreword-1 blockquote{
+	margin: 0;
+}
+
+#foreword-1 blockquote + blockquote{
 	margin-top: 3em;
 }
 
-#foreword-1 section:nth-of-type(1) header{
+#foreword-1 blockquote:nth-of-type(1) header{
 	font-variant: small-caps;
 	text-align: left;
 }
 
-#foreword-1 section:nth-of-type(2) header{
+#foreword-1 blockquote:nth-of-type(2) header{
 	text-align: right;
 }
 
