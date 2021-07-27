@@ -39,7 +39,7 @@
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85014567</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Autobiography</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
@@ -47,35 +47,36 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/7097</dc:source>
 		<dc:source>https://archive.org/details/autobiographyofm00blaciala/</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/black-hawk_the-autobiography-of-ma-ka-tai-me-she-kia-kiak-or-black-hawk</meta>
 		<dc:creator id="author">Black Hawk</dc:creator>
-		<meta property="file-as" refines="#author">Hawk, Black</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Black_Hawk</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="file-as" refines="#author">Black Hawk</meta>
+		<meta property="se:name.person.full-name" refines="#author">Ma-Ka-Tai-Me-She-Kia-Kiak</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Black_Hawk_(Sauk_leader)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">htts://id.loc.gov/authorities/names/n79060566</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="editor">J. B. Patterson</dc:contributor>
+		<meta property="file-as" refines="#editor">Patterson, J. B.</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="se:role" refines="#editor" scheme="marc:relators">ann</meta>
+		<meta property="se:role" refines="#editor" scheme="marc:relators">aui</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Martin Schub</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Schub, Martin</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">scanned pages provided courtesy of the 1st-hand-history Foundation</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBER_SORT</meta>
-		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -95,6 +96,7 @@
 		<item href="text/dedication-1.xhtml" id="dedication-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/dedication-2-translation.xhtml" id="dedication-2-translation.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/dedication-2.xhtml" id="dedication-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/foreword-1.xhtml" id="foreword-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/foreword-2.xhtml" id="foreword-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
