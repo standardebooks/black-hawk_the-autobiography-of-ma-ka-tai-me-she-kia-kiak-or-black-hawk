@@ -72,8 +72,13 @@ section[epub|type~="dedication"]#dedication-1 b{
 	text-align: initial;
 }
 
+[epub|type~="se:letter.dateline"],
 #foreword-1 blockquote:nth-of-type(2) header{
 	text-align: right;
+}
+
+[epub|type~="z3998:recipient"]{
+	text-align: initial;
 }
 
 #foreword-1 header + p{
@@ -90,6 +95,7 @@ section[epub|type~="dedication"]#dedication-1 b{
 	font-variant: small-caps;
 }
 
+[epub|type~="se:letter.dateline"] + p,
 #dedication-2 > p:nth-of-type(1) + p,
 #dedication-2 > p:nth-of-type(1) + p + p,
 #dedication-2-translation p:nth-of-type(1) + p{
