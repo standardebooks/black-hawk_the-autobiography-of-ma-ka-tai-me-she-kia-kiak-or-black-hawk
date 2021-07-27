@@ -129,6 +129,7 @@
 		<itemref idref="part-3-3.xhtml"/>
 		<itemref idref="part-3-4.xhtml"/>
 		<itemref idref="appendix.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
