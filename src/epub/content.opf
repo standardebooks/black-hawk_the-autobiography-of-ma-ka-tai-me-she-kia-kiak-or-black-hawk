@@ -62,10 +62,10 @@
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="se:role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#editor" scheme="marc:relators">aui</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">George Catlin</dc:contributor>
+		<meta property="file-as" refines="#artist">Catlin, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Catlin</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50035819</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Martin Schub</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Schub, Martin</meta>
