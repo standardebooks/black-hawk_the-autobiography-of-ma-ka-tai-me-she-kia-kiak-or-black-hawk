@@ -10,6 +10,7 @@ footer{
 	margin-top: 20vh;
 }
 
+[epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
