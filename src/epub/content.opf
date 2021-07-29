@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/black-hawk/the-autobiography-of-ma-ka-tai-me-she-kia-kiak-or-black-hawk</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-07-29T21:13:15Z</dc:date>
+		<meta property="dcterms:modified">2021-07-29T21:13:15Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,16 +40,20 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85014567</meta>
 		<meta property="se:subject">Autobiography</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The autobiography of Black Hawk, the famous leader of the Native American Sauk tribe and central figure in the Black Hawk War of 1832.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/black-hawk"&gt;Black Hawk&lt;/a&gt;, so named after the sacred medicine bag he carried with him, was a warrior and a leader of a tribe of Sauk Native Americans in the American Midwest circa 1800. He rose to leadership during a tumultuous time for his people, as they were pressed on all sides by the warlike British, the ruthlessly expansionist Americans, and the grudges and jealousies of neighboring tribes.&lt;/p&gt;
+			&lt;p&gt;He lived as a warrior for much of his early life, when the War of 1812 between the British and the Americans forced the Sauk to take sides and enter the fray. Angered by the Americans’ demands they sign shaky treaties to cede their land, the tribe fought for the British until the toll of the war forced the tribe to bow out.&lt;/p&gt;
+			&lt;p&gt;After the war, Black Hawk signed a peace treaty with the Americans, but a series of misunderstandings once again brought tensions between the Sauk and the Americans to a head. When a group of under-trained Illinois militia mistakenly opened fire on the Sauk, Black Hawk began what is known as the Black Hawk War, leading raids against American forts and settlements in an effort to reclaim their ancient land.&lt;/p&gt;
+			&lt;p&gt;Even though Black Hawk managed to convince other tribes to join his cause, the war was quickly lost and Black Hawk captured. He was then taken on a tour of the vast East Coast cities in an attempt to impress upon him America’s overwhelming might. Despite his status as a former enemy, he was treated with dignity and respect by his captors before they granted him a small house and plot of land in Iowa to live out the rest of his days.&lt;/p&gt;
+			&lt;p&gt;His autobiography was dictated to a translator, Antoine Le Clair, and written down by his amanuensis and publisher, J. B. Patterson. The story Black Hawk tells is a vivid one of life on the prairie, rich with tradition and meaning, but riven equally by war and bloodshed. As he reminisces about the bucolic life he and his ancestors once lead and compares it with hardships his people are facing, his sorrow becomes palpable; and as his days draw to a close, the reader sees that even to Black Hawk, the fate of his people appears inevitable.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<meta property="se:production-notes">The ToC has a unique structure due to the unusual structure of the book. `se build-toc` will not output the correct structure.</meta>
 		<dc:source>https://www.gutenberg.org/ebooks/7097</dc:source>
 		<dc:source>https://archive.org/details/autobiographyofm00blaciala/</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">64913</meta>
+		<meta property="se:reading-ease.flesch">64.75</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/black-hawk_the-autobiography-of-ma-ka-tai-me-she-kia-kiak-or-black-hawk</meta>
 		<dc:creator id="author">Black Hawk</dc:creator>
 		<meta property="file-as" refines="#author">Black Hawk</meta>
