@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="appendix.xhtml">
+		<ignore>
+			<code>t-057</code>
+			<reason>The starts of chapters are continuations of the titles.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
