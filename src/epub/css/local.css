@@ -92,8 +92,18 @@ section[epub|type~="dedication"]#dedication-1 b{
 	text-align: center;
 }
 
-#dedication-2 > p:nth-of-type(1) + p{
+#appendix header,
+[epub|type~="z3998:poem"] header{
 	font-variant: small-caps;
+	margin: 1em;
+}
+
+[epub|type~="z3998:poem"] header p{
+	text-align: center;
+}
+
+[epub|type~="z3998:poem"] header p + p{
+	font-variant: normal;
 }
 
 [epub|type~="se:letter.dateline"] + p,
