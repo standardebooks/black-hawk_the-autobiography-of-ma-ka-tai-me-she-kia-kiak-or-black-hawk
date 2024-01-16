@@ -57,7 +57,7 @@
 		<meta property="file-as" refines="#author">Black Hawk</meta>
 		<meta property="se:name.person.full-name" refines="#author">Ma-Ka-Tai-Me-She-Kia-Kiak</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Black_Hawk_(Sauk_leader)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">htts://id.loc.gov/authorities/names/n79060566</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79060566</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="editor">J. B. Patterson</dc:contributor>
 		<meta property="file-as" refines="#editor">Patterson, J. B.</meta>
