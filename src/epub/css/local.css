@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 footer{
 	margin-top: 1em;
@@ -10,6 +11,7 @@ footer{
 	margin-top: 20vh;
 }
 
+[epub|type~="dedication"] > p:first-of-type,
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -52,10 +54,6 @@ section[epub|type~="dedication"]#dedication-1 > *{
 }
 /* End all dedications */
 
-section[epub|type~="dedication"]#dedication-1 p{
-	font-variant: small-caps;
-}
-
 section[epub|type~="dedication"]#dedication-1 b{
 	font-size: larger;
 }
@@ -87,9 +85,13 @@ section[epub|type~="dedication"]#dedication-1 b{
 	text-indent: 0;
 }
 
-#dedication-2 > p:nth-of-type(1){
+#dedication-2 header p,
+#dedication-2-translation header p + p{
 	font-variant: small-caps;
-	text-align: center;
+}
+
+#dedication-2-translation header p + p{
+	margin-top: 1em;
 }
 
 #appendix header,
@@ -107,9 +109,12 @@ section[epub|type~="dedication"]#dedication-1 b{
 	font-variant: normal;
 }
 
+[epub|type~="dedication"][xml|lang] p{
+	font-style: italic;
+}
+
+[epub|type~="dedication"] > p:first-of-type + p,
 [epub|type~="se:letter.dateline"] + p,
-#dedication-2 > p:nth-of-type(1) + p,
-#dedication-2 > p:nth-of-type(1) + p + p,
 #dedication-2-translation p:nth-of-type(1) + p{
 	text-indent: 0;
 }
