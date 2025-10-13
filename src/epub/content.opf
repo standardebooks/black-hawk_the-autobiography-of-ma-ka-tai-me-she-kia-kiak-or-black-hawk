@@ -65,7 +65,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n87911145</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
-		<meta property="role" refines="#editor" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">George Catlin</dc:contributor>
 		<meta property="file-as" refines="#artist">Catlin, George</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Catlin</meta>
