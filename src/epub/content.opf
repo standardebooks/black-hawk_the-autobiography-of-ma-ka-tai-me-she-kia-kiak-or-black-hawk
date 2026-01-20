@@ -51,7 +51,7 @@
 		<meta property="se:production-notes">The ToC has a unique structure due to the unusual structure of the book. `se build-toc` will not output the correct structure.</meta>
 		<dc:source>https://www.gutenberg.org/ebooks/7097</dc:source>
 		<dc:source>https://archive.org/details/autobiographyofm00blaciala</dc:source>
-		<meta property="se:word-count">64913</meta>
+		<meta property="se:word-count">64725</meta>
 		<meta property="se:reading-ease.flesch">64.85</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/black-hawk_the-autobiography-of-ma-ka-tai-me-she-kia-kiak-or-black-hawk</meta>
 		<dc:creator id="author">Black Hawk</dc:creator>
