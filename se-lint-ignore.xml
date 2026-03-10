@@ -2,9 +2,14 @@
 <se-lint-ignore>
 	<file path="appendix.xhtml">
 		<ignore code="t-057">
+			<line>63</line>
+			<line>67</line>
+			<line>71</line>
+			<line>86</line>
 			<reason>The starts of chapters are continuations of the titles.</reason>
 		</ignore>
 		<ignore code="y-003">
+			<line>76</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
