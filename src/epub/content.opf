@@ -40,7 +40,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh85014567</meta>
 		<meta property="schema:genre">Autobiography</meta>
-		<dc:abstract>The autobiography of Black Hawk, the famous leader of the Native American Sauk tribe and central figure in the Black Hawk War of 1832.</dc:abstract>
+		<meta property="schema:abstract">The autobiography of Black Hawk, the famous leader of the Native American Sauk tribe and central figure in the Black Hawk War of 1832.</meta>
 		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/black-hawk"&gt;Black Hawk&lt;/a&gt;, so named after the sacred medicine bag he carried with him, was a warrior and a leader of a tribe of Sauk Native Americans in the American Midwest circa 1800. He rose to leadership during a tumultuous time for his people, as they were pressed on all sides by the warlike British, the ruthlessly expansionist Americans, and the grudges and jealousies of neighboring tribes.&lt;/p&gt;
 			&lt;p&gt;He lived as a warrior for much of his early life, when the War of 1812 between the British and the Americans forced the Sauk to take sides and enter the fray. Angered by the Americans’ demands they sign shaky treaties to cede their land, the tribe fought for the British until the toll of the war forced the tribe to bow out.&lt;/p&gt;
