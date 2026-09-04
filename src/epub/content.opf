@@ -31,7 +31,7 @@
 		<dc:title id="title">The Autobiography of Ma-Ka-Tai-Me-She-Kia-Kiak, or Black Hawk</dc:title>
 		<meta property="file-as" refines="#title">Autobiography of Ma-Ka-Tai-Me-She-Kia-Kiak, or Black Hawk, The</meta>
 		<dc:subject id="subject-1">Black Hawk, Sauk chief, 1767-1838</dc:subject>
-		<dc:subject id="subject-2">Sauk Indians -- Biography</dc:subject>
+		<dc:subject id="subject-2">Sauk Indians--Biography</dc:subject>
 		<dc:subject id="subject-3">Black Hawk War, 1832</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">n79060566</meta>
